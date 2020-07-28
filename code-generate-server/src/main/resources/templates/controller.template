@@ -1,0 +1,183 @@
+package xmxrProject.genServer.mods.${className}mod.controller;
+
+import xmxrProject.genServer.common.baseMod.BaseController;
+import xmxrProject.genServer.common.webResult.Result;
+import xmxrProject.genServer.mods.${className}mod.entity.${ClassName};
+import xmxrProject.genServer.mods.${className}mod.service.${ClassName}Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+
+/**
+ * ${tableNote} controller
+ * @Aether ${Aether}
+ * @Date ${createTime}
+ */
+@CrossOrigin
+@RestController
+@RequestMapping("/${className}/")
+public class ${ClassName}Controller extends BaseController<${ClassName}> {
+
+    @Autowired
+    private ${ClassName}Service ${className}Service;
+
+    /**
+     * 添加一条${className}数据
+     * @param ${className} ${className} 对象数据
+     * @param request 请求对象
+     * @param response 响应对象
+     * @return 结果 json 字符串
+     */
+    @RequestMapping(value = "add${ClassName}")
+    public String  add${ClassName}(${ClassName} ${className}, HttpServletRequest request , HttpServletResponse response){
+        Result result = new Result() ;
+        try {
+            ${className}Service.insert(${className});
+            result.setResult(0,"添加成功",null,${className});
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setResult(1,"添加失败",e.getLocalizedMessage(),${className});
+        }finally {
+            logger.info("add${ClassName} : "+result);
+            return result.toJson();
+        }
+    }
+    
+    /**
+         * 前端示例 [{"pkId":1,"id":"1","name":"zs","pwd":"123"},{"pkId":2,"id":"2","name":"ls","pwd":"456"},{"pkId":3,"id":"3","name":"ww","pwd":"789"}] postman - post - body- raw
+         * 批量${className}数据
+         * @param ${className}s ${className} 对象集合数据
+         * @param request 请求对象
+         * @param response 响应对象
+         * @return 结果 json 字符串
+         */
+        @RequestMapping(value = "add${ClassName}s")
+        public String  add${ClassName}s(@RequestBody List<${ClassName}> ${className}s , HttpServletRequest request , HttpServletResponse response){
+            Result result = new Result() ;
+            try {
+                ${className}Service.insertList(${className}s);
+                result.setResult(0,"添加成功",null,${className}s);
+            }catch (Exception e){
+                e.printStackTrace();
+                result.setResult(1,"添加失败",e.getLocalizedMessage(),${className}s);
+            }finally {
+                logger.info("add${ClassName}s : "+result);
+                return result.toJson();
+            }
+        }
+
+    /**
+     * 获取 一条 ${className} 数据
+     * @param ${className} 查询条件 
+     * @param request 请求对象
+     * @param response 响应对象
+     * @return 结果 json 字符串
+     */
+    @RequestMapping(value = "get${ClassName}")
+    public String get${ClassName}(${ClassName} ${className}, HttpServletRequest request , HttpServletResponse response){
+        Result result = new Result() ;
+        try {
+            ${className} = ${className}Service.select(${className});
+            result.setResult(0,"查询成功",null,${className});
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setResult(1,"查询失败",e.getLocalizedMessage(),${className});
+        }finally {
+            logger.info("get${ClassName} : "+result);
+            return result.toJson();
+        }
+    }
+
+    /**
+     * 获取 所有 ${className} 数据
+     * @param ${className} 查询条件 
+     * @param request 请求对象
+     * @param response 响应对象
+     * @return 结果 json 字符串
+     */
+    @RequestMapping(value = "get${ClassName}s")
+    public String get${ClassName}s(${ClassName} ${className}, HttpServletRequest request , HttpServletResponse response){
+        Result result = new Result() ;
+        try {
+            List<${ClassName}> ${className}s = ${className}Service.selectList(${className});
+            result.setResult(0,"查询成功 找到"+${className}s.size()+"条数据",null,${className}s);
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setResult(1,"查询失败",e.getLocalizedMessage(),${className});
+        }finally {
+            logger.info("get${ClassName}s : "+result);
+            return result.toJson();
+        }
+    }
+
+    /**
+     * 更新 ${className} 数据
+     * @param ${className} 更新 数据 和 条件
+     * @param request 请求对象
+     * @param response 响应对象
+     * @return 结果 json 字符串
+     */
+    @RequestMapping(value = "update${ClassName}")
+    public String  update${ClassName}(${ClassName} ${className}, HttpServletRequest request , HttpServletResponse response){
+        Result result = new Result() ;
+        try {
+            int i = ${className}Service.update(${className});
+            result.setResult(0,i+"条数据被修改",null,${className});
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setResult(1,"修改失败",e.getLocalizedMessage(),${className});
+        }finally {
+            logger.info("update${ClassName} : "+result);
+            return result.toJson();
+        }
+    }
+
+    /**
+     * 删除 ${className} 数据 
+     * @param ${className} 删除 条件
+     * @param request 请求对象
+     * @param response 响应对象
+     * @return 结果 json 字符串
+     */
+    @RequestMapping(value = "delete${ClassName}")
+    public String delete${ClassName}(${ClassName} ${className}, HttpServletRequest request , HttpServletResponse response){
+        Result result = new Result() ;
+        try {
+            int i = ${className}Service.delete(${className});
+            result.setResult(0,i+"条数据被删除",null,${className});
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setResult(1,"删除失败",e.getLocalizedMessage(),${className});
+        }finally {
+            logger.info("delete${ClassName} : "+result);
+            return result.toJson();
+        }
+    }
+
+    /**
+     *删除 ${className} 表 全部数据
+     * @param request 请求对象
+     * @param response 响应对象
+     * @return 结果 json 字符串
+     */
+    @RequestMapping(value = "deleteAll${ClassName}")
+    public String deleteAll${ClassName}(HttpServletRequest request , HttpServletResponse response){
+        Result result = new Result() ;
+        try {
+            int i = ${className}Service.deleteAll();
+            result.setResult(0,i+"条数据被删除",null,null);
+        }catch (Exception e){
+            e.printStackTrace();
+            result.setResult(1,"删除失败",e.getLocalizedMessage(),null);
+        }finally {
+            logger.info("deleteAll${ClassName} : "+result);
+            return result.toJson();
+        }
+    }
+
+}

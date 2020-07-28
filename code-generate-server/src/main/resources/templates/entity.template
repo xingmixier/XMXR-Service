@@ -1,0 +1,29 @@
+package xmxrProject.genServer.mods.${className}mod.entity;
+
+import xmxrProject.genServer.common.baseMod.BaseEntity;
+
+/**
+ * ${tableNote} 对象实体
+ * @Aether ${Aether}
+ * @Date ${createTime}
+ */
+public class ${ClassName} extends BaseEntity<${ClassName}> {
+
+    private static final long serialVersionUID = 33333L;
+
+    $LIST{fields as field :
+    ${field.annotations}
+    ${field.state} ${field.type} ${field.name};         //${field.comment}
+    }LIST$
+    
+    $LIST{fields as field :
+    public ${field.type} get${field.upName}() {
+            return ${field.name};
+    }
+
+    public void set${field.upName}(${field.type} ${field.name}) {
+            this.${field.name} = ${field.name};
+    }
+    }LIST$
+
+}

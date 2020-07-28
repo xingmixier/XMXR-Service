@@ -1,0 +1,18 @@
+package xmxrProject.genServer.mods.${className}mod.service;
+
+import xmxrProject.genServer.common.baseMod.BaseService;
+import xmxrProject.genServer.mods.${className}mod.dao.${ClassName}Dao;
+import xmxrProject.genServer.mods.${className}mod.entity.${ClassName};
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;        
+
+/**
+ * ${tableNote} service
+ * @Aether ${Aether}
+ * @Date ${createTime}
+ */
+@Service
+@Transactional(readOnly = true)
+public class ${ClassName}Service extends BaseService<${ClassName}Dao, ${ClassName}> {
+
+}

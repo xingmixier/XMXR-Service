@@ -1,0 +1,16 @@
+package xmxrProject.genServer.mods.${className}mod.dao;
+
+import xmxrProject.genServer.common.baseMod.BaseDao;
+import xmxrProject.genServer.mods.${className}mod.entity.${ClassName};
+import org.apache.ibatis.annotations.Mapper;
+
+/**
+ * ${tableNote} dao
+ * @Aether ${Aether}
+ * @Date ${createTime}
+ */
+@Mapper
+public interface ${ClassName}Dao extends BaseDao<${ClassName}> {
+
+
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmxrProject.genServer.mods.usermod.dao.UserDao">
+    <!--  全字段查询语句  -->
+    <sql id="userColumns">
+    a.pk_id AS "pkId"
+    , a.id AS "id"
+    , a.name AS "name"
+    , a.pwd AS "pwd"
+	</sql>
+
+    <!--    存入一条数据 -->
+    <insert id="insert">
+		INSERT INTO `user`(
+		pk_id
+		, #{id}
+        , #{name}
+        , #{pwd}
+		) VALUES (
+		#{pkId}
+		, #{id}
+        , #{name}
+        , #{pwd}
+		)
+	</insert>
+    <!--    插入多条数据-->
+    <insert id="insertList" parameterType="java.util.List">
+        INSERT INTO `user`(
+        pk_id
+        , `id`
+        , `name`
+        , `pwd`
+        ) VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (
+            #{item.pkId}
+            , #{item.id}
+            , #{item.name}
+            , #{item.pwd}
+            )
+        </foreach>
+    </insert>
+
+    <!--    查询一条语句-->
+    <select id="select" resultType="User">
+        SELECT
+        <include refid="userColumns"/>
+        FROM user a
+        <where>
+            <if test="id != null and id != ''">
+                AND a.id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND a.name like #{name}
+            </if>
+            <if test="pwd != null and pwd != ''">
+                AND a.pwd like #{pwd}
+            </if>
+        </where>
+    </select>
+
+    <!--    查询多条数据-->
+    <select id="selectList" resultType="User">
+        SELECT
+        <include refid="userColumns"/>
+        FROM user a
+        <where>
+            <if test="id != null and id != ''">
+                AND a.id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND a.name like #{name}
+            </if>
+            <if test="pwd != null and pwd != ''">
+                AND a.pwd like #{pwd}
+            </if>
+        </where>
+    </select>
+
+    <!--    更新数据-->
+    <update id="update">
+		UPDATE user SET
+		    pk_id = #{pkId}
+			, `id` = #{id}
+            , `name` = #{name}
+            , `pwd` = #{pwd}
+		WHERE pk_id = #{pkId}
+	</update>
+
+    <!--   删除数据 -->
+    <update id="delete">
+        DELETE FROM user
+        <where>
+            <if test="id != null and id != ''">
+                AND a.id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND a.name like #{name}
+            </if>
+            <if test="pwd != null and pwd != ''">
+                AND a.pwd like #{pwd}
+            </if>
+        </where>
+    </update>
+
+    <!--    删除全部数据-->
+    <update id="deleteAll">
+		TRUNCATE TABLE user
+	</update>
+
+
+</mapper>

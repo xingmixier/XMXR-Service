@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xmxrProject.genServer.mods.${className}mod.dao.${ClassName}Dao">
+<!--  全字段查询语句  -->
+    <sql id="${className}Columns">
+    a.pk_id AS "pkId"
+    $LIST{fields as f :
+    , a.${f.sqlName} AS "${f.name}"
+    }LIST$
+	</sql>
+
+<!--    存入一条数据 -->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="pkId" >
+		INSERT INTO `${tableName}`(
+		pk_id
+		$LIST{fields as f :
+        , #{${f.sqlName}}
+        }LIST$
+		) VALUES (
+		#{pkId}
+		$LIST{fields as f :
+        , #{${f.name}}
+        }LIST$
+		)
+	</insert>
+<!--    插入多条数据-->
+    <insert id="insertList" parameterType="java.util.List" useGeneratedKeys="true" keyProperty="pkId">
+        INSERT INTO `${tableName}`(
+        pk_id
+        $LIST{fields as f :
+        , `${f.sqlName}` 
+        }LIST$
+        ) VALUES
+        <foreach collection="list" item="item" index= "index" separator =",">
+        (
+        #{item.pkId}
+        $LIST{fields as f :
+        , #{item.${f.name}}
+        }LIST$
+        )
+        </foreach>
+    </insert>
+   
+<!--    查询一条语句-->
+    <select id="select" resultType="${ClassName}">
+        SELECT
+        <include refid="${className}Columns"/>
+        FROM ${tableName} a
+        <where>
+        $LIST{fields as f :
+        <if test="${f.name} != null and ${f.name} != ''">
+        AND a.${f.sqlName} ${f.judgeSymbol} #{${f.name}}
+        </if>
+        }LIST$
+        </where>
+    </select>
+
+<!--    查询多条数据-->
+    <select id="selectList" resultType="${ClassName}">
+        SELECT
+        <include refid="${className}Columns"/>
+        FROM ${tableName} a
+        <where>
+            $LIST{fields as f :
+                <if test="${f.name} != null and ${f.name} != ''">
+                    AND a.${f.sqlName} ${f.judgeSymbol} #{${f.name}}
+                </if>
+            }LIST$
+        </where>
+    </select>
+
+<!--    更新数据-->
+    <update id="update">
+		UPDATE ${tableName} SET
+		    pk_id = #{pkId}
+			$LIST{fields as f :
+            , `${f.sqlName}` = #{${f.name}}
+            }LIST$
+		WHERE pk_id = #{pkId}
+	</update>
+
+<!--   删除数据 -->
+    <update id="delete">
+		DELETE FROM ${tableName}
+		<where>
+        $LIST{fields as f :
+        <if test="${f.name} != null and ${f.name} != ''">
+        AND a.${f.sqlName} ${f.judgeSymbol} #{${f.name}}
+        </if>
+        }LIST$
+        </where>
+	</update>
+
+<!--    删除全部数据-->
+    <update id="deleteAll">
+		TRUNCATE TABLE ${tableName}
+	</update>
+
+  
+</mapper>
