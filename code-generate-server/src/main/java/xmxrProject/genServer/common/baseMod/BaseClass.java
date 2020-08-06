@@ -2,6 +2,7 @@ package xmxrProject.genServer.common.baseMod;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import xmxrProject.genServer.$XMXR;
 
 /**
  * @FileName: BaseClass.java

@@ -115,8 +115,8 @@ public class C_CodeBuilder {
      */
     private void writeAllList() {
         int start = -1;
-        while ((start = bodyText.indexOf(LIST_START)) != -1) {
-            int end = end = bodyText.indexOf(LIST_END);
+        while ((start = bodyText.indexOf(LIST_START,start  )) != -1) {
+            int end =  bodyText.indexOf(LIST_END,start);
             pText = new StringBuilder(bodyText.subSequence(start, end + LIST_END.length()));
             writeList(start, end + LIST_END.length());
         }
@@ -145,8 +145,8 @@ public class C_CodeBuilder {
             StringBuilder newText = new StringBuilder(nextText);
             Object item = list.get(index);
             int fieldStart = -1;
-            while ((fieldStart = newText.indexOf(TAG_START)) != -1) {
-                int fieldEnd = newText.indexOf(TAG_END);
+            while ((fieldStart = newText.indexOf(TAG_START,fieldStart)) != -1) {
+                int fieldEnd = newText.indexOf(TAG_END,fieldStart);
                 String fieldText = newText.substring(fieldStart + TAG_START.length(), fieldEnd);
                 String fieldTextKey = TAG_START + fieldText + TAG_END;
                 String fieldTextValue;
@@ -198,8 +198,8 @@ public class C_CodeBuilder {
      */
     private void writeAllIf() {
         int start = -1;
-        while ((start = bodyText.indexOf(IF_START)) != -1) {
-            int end = end = bodyText.indexOf(IF_END);
+        while ((start = bodyText.indexOf(IF_START,start)) != -1) {
+            int end = bodyText.indexOf(IF_END,start);
             pText = new StringBuilder(bodyText.subSequence(start, end + IF_END.length()));
             writeIf(start, end + IF_END.length());
         }
@@ -312,8 +312,8 @@ public class C_CodeBuilder {
      */
     private void writeALlField() {
         int start = -1;
-        while ((start = bodyText.indexOf(TAG_START)) != -1) {
-            int end = end = bodyText.indexOf(TAG_END);
+        while ((start = bodyText.indexOf(TAG_START,start)) != -1) {
+            int end = bodyText.indexOf(TAG_END,start);
             pText = new StringBuilder(bodyText.subSequence(start, end + TAG_END.length()));
             writeField(start, end + TAG_END.length());
         }

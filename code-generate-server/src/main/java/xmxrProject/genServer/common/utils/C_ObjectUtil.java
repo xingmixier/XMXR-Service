@@ -38,4 +38,16 @@ public class C_ObjectUtil {
         }
     }
 
+    public static void canNotNull(Object... objects){
+        if(objects == null){
+            throw new NullPointerException("对象为空");
+        }
+        for(Object obj : objects){
+            if(obj == null){
+                throw new NullPointerException("对象为空");
+            }
+        }
+    }
+
+
 }

@@ -105,7 +105,7 @@ public class C_CreateTableUtil {
         Map<String, Object> result = C_HttpUtils.doGet(url, map);
         value = (String) ((Map<String, Object>) result.get("content")).get("out");
         System.out.println(value);
-        return value.split("");
+        return value.split("!!!");
     }
 
     private String createTableSql(String[] CNtexts, String[] ENtexts) {
@@ -202,7 +202,8 @@ public class C_CreateTableUtil {
 
     public static void main(String[] args) {
         C_CreateTableUtil c = new C_CreateTableUtil();
-        String sql = c.getSql("D:\\_TEST_FILES\\biao.txt", "lt3q_mgz", "敏感基站详情表", c.TXT, 1);
+        String begin = "dfhx_";
+        String sql = c.getSql("D:\\_TEST_FILES\\biao.txt", begin+"hxydmx", "核销用电明细", c.TXT, 1);
         System.out.println(sql);
     }
 }

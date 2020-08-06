@@ -1,6 +1,7 @@
 package xmxrProject.genServer.common.baseMod;
 
 import org.apache.ibatis.annotations.Mapper;
+import xmxrProject.genServer.$XMXR;
 
 import java.util.List;
 
