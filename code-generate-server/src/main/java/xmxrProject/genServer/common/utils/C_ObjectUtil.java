@@ -1,7 +1,9 @@
 package xmxrProject.genServer.common.utils;
 
 import java.beans.IntrospectionException;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Date;
+import java.util.Objects;
 
 /**
  * @FileName: C_ObjectUtil.java
@@ -10,6 +12,9 @@ import java.util.Date;
  * @Description:
  */
 public class C_ObjectUtil {
+
+
+
     public static <O>O toNotNull(O target,O defaultValue){
         return target == null ? defaultValue : target;
     }
@@ -19,35 +24,32 @@ public class C_ObjectUtil {
         }
         switch (targetClass.getTypeName()){
             case "byte":
-            case "java.lang.Byte":          return (O) new Byte((byte)1);
+            case "java.lang.Byte":          return (O) Byte.valueOf((byte) 1);
             case "short":
-            case "java.lang.Short":         return (O)new Short((short)1);
+            case "java.lang.Short":         return (O) Short.valueOf((short) 1);
             case "int":
-            case "java.lang.Integer":       return (O) new Integer(1);
+            case "java.lang.Integer":       return (O) Integer.valueOf(1);
             case "long":
-            case "java.lang.Long":          return (O) new Long(1L);
+            case "java.lang.Long":          return (O) Long.valueOf(1L);
             case "char":
-            case "java.lang.Character":     return (O) new Character('\u0000');
+            case "java.lang.Character":     return (O) Character.valueOf('\u0000');
             case "boolean":
-            case "java.lang.Boolean":       return (O) new Boolean(false);
+            case "java.lang.Boolean":       return (O) Boolean.FALSE;
             case "float":
-            case "java.lang.Float":         return (O) new Float(1.0);
+            case "java.lang.Float":         return (O) Float.valueOf(1.0f);
             case "double":
-            case "java.lang.Double":        return (O) new Double(1.0);
+            case "java.lang.Double":        return (O) Double.valueOf(1.0);
             default:                        return targetClass.newInstance();
         }
     }
 
     public static void canNotNull(Object... objects){
-        if(objects == null){
-            throw new NullPointerException("对象为空");
-        }
         for(Object obj : objects){
-            if(obj == null){
-                throw new NullPointerException("对象为空");
-            }
+            Objects.requireNonNull(obj);
         }
     }
+
+
 
 
 }

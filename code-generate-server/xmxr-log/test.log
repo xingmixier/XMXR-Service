@@ -1,0 +1,611 @@
+17:11:04.598 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 10556 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+17:11:04.649 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+17:11:06.270 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+17:11:06.271 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+17:11:06.271 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+17:11:06.274 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+17:11:06.274 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+17:11:06.274 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17:11:06.275 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:11:07.362 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+17:11:07.463 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+17:11:08.240 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+17:11:08.288 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.514 seconds (JVM running for 6.526)
+17:11:08.299 [main] INFO  xmxrProject.genServer.$XMXR$1 - project start over
+18:18:23.902 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 8288 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+18:18:23.972 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+18:18:25.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+18:18:25.277 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+18:18:25.277 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+18:18:25.279 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+18:18:25.279 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+18:18:25.279 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+18:18:25.279 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18:18:26.317 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+18:18:26.413 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+18:18:27.075 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+18:18:27.108 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.739 seconds (JVM running for 5.408)
+18:18:27.110 [main] INFO  xmxrProject.genServer.$XMXR$1 - project start over
+09:27:41.854 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 13724 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+09:27:41.904 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+09:27:43.308 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+09:27:43.309 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:27:43.309 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+09:27:43.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+09:27:43.312 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+09:27:43.312 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09:27:43.312 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09:27:44.360 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+09:27:44.462 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+09:27:45.194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+09:27:45.227 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.992 seconds (JVM running for 5.779)
+09:27:45.229 [main] INFO  xmxrProject.genServer.$XMXR - project start over
+10:22:52.387 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 8848 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+10:22:52.471 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+10:22:54.639 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+10:22:54.640 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:22:54.641 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10:22:54.642 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+10:22:54.642 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:22:54.643 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:22:54.643 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:22:55.687 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:22:55.800 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+10:22:56.959 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+10:22:57.025 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 5.436 seconds (JVM running for 7.604)
+10:32:54.334 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 2944 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+10:32:54.343 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+10:32:55.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+10:32:55.682 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:32:55.682 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10:32:55.684 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+10:32:55.684 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:32:55.684 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:32:55.685 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:32:56.734 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:32:56.834 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+10:32:57.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+10:32:57.602 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.854 seconds (JVM running for 5.633)
+10:34:05.428 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 2496 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+10:34:05.453 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+10:34:06.757 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+10:34:06.758 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:34:06.758 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10:34:06.759 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+10:34:06.760 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:34:06.760 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:34:06.760 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:34:07.801 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:34:07.907 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+10:34:08.658 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+10:34:08.708 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.871 seconds (JVM running for 5.778)
+10:35:12.091 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 16212 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+10:35:12.100 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+10:35:13.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+10:35:13.486 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:35:13.486 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10:35:13.493 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+10:35:13.494 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:35:13.494 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:35:13.495 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:35:14.533 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:35:14.650 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+10:35:15.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+10:35:15.547 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.078 seconds (JVM running for 5.874)
+10:37:11.294 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 5488 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+10:37:11.317 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+10:37:12.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+10:37:12.791 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+10:37:12.792 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+10:37:12.793 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+10:37:12.793 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+10:37:12.793 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+10:37:12.794 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:37:13.842 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+10:37:13.955 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+10:37:14.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+10:37:14.828 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.292 seconds (JVM running for 6.009)
+11:15:48.887 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 14684 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:15:48.909 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:20:40.439 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 14052 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:20:40.452 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:20:41.760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+11:20:41.760 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:20:41.761 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+11:20:41.762 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:20:41.762 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:20:41.763 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:20:41.763 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:20:42.792 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:20:42.916 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+11:20:43.925 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+11:20:43.969 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.101 seconds (JVM running for 5.802)
+11:22:45.092 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 5436 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:22:45.104 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:22:46.383 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+11:22:46.384 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:22:46.384 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+11:22:46.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:22:46.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:22:46.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:22:46.386 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:22:47.424 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:22:47.533 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+11:22:48.244 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+11:22:48.283 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.744 seconds (JVM running for 5.408)
+11:24:21.519 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 8168 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:24:21.544 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:24:23.454 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+11:24:23.454 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:24:23.455 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+11:24:23.456 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:24:23.456 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:24:23.457 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:24:23.457 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:24:24.497 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:24:24.626 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+11:24:25.373 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+11:24:25.408 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.552 seconds (JVM running for 6.655)
+11:26:35.807 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 11784 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:26:35.818 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:26:37.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+11:26:37.412 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:26:37.412 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+11:26:37.414 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:26:37.414 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:26:37.414 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:26:37.415 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:26:38.453 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:26:38.579 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+11:26:39.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+11:26:39.491 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.459 seconds (JVM running for 6.726)
+20:44:59.670 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 2332 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:44:59.697 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:45:01.458 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:45:01.458 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:45:01.459 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:45:01.461 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:45:01.461 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:45:01.461 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:45:01.462 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:45:02.498 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:45:02.601 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:45:02.961 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+20:45:59.945 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 10592 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:45:59.959 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:46:01.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:46:01.084 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:46:01.084 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:46:01.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:46:01.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:46:01.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:46:01.087 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:46:02.129 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:46:02.220 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:46:02.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+20:46:02.958 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.582 seconds (JVM running for 5.226)
+20:48:01.417 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 11920 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:48:01.431 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:48:02.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:48:02.876 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:48:02.876 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:48:02.878 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:48:02.878 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:48:02.878 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:48:02.879 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:48:03.970 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:48:04.338 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:48:05.972 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+20:48:06.020 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 5.343 seconds (JVM running for 8.672)
+20:48:33.900 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 476 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:48:33.913 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:48:35.604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:48:35.606 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:48:35.606 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:48:35.609 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:48:35.609 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:48:35.609 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:48:35.610 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:48:36.685 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:48:36.797 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:48:37.533 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+20:48:37.570 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.233 seconds (JVM running for 5.866)
+20:49:08.697 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 12216 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:49:08.720 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:49:10.036 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:49:10.037 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:49:10.037 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:49:10.039 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:49:10.039 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:49:10.039 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:49:10.040 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:49:11.085 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:49:11.198 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:49:11.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+20:49:11.986 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.95 seconds (JVM running for 5.922)
+20:50:16.124 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 6624 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:50:16.142 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:50:17.490 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:50:17.491 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:50:17.491 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:50:17.493 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:50:17.494 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:50:17.494 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:50:17.494 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:50:18.546 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:50:18.660 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:50:19.476 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+20:50:19.518 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.995 seconds (JVM running for 5.797)
+20:50:53.124 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 12720 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+20:50:53.137 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+20:50:54.761 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+20:50:54.762 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+20:50:54.763 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+20:50:54.766 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+20:50:54.766 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+20:50:54.767 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20:50:54.767 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+20:50:55.826 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+20:50:55.963 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+20:50:56.821 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+20:50:56.877 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.445 seconds (JVM running for 6.349)
+11:45:03.480 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 15652 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:45:03.513 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:45:05.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+11:45:05.312 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:45:05.313 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+11:45:05.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:45:05.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:45:05.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:45:05.315 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:45:06.387 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:45:06.494 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+11:45:07.381 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+11:45:07.423 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.769 seconds (JVM running for 7.001)
+11:46:44.520 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 3952 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+11:46:44.533 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+11:46:46.013 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+11:46:46.014 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+11:46:46.015 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+11:46:46.018 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+11:46:46.018 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+11:46:46.018 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+11:46:46.019 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11:46:47.075 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+11:46:47.197 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+11:46:48.148 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+11:46:48.219 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.398 seconds (JVM running for 6.747)
+12:03:27.640 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 13328 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+12:03:27.653 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+12:03:30.731 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+12:03:30.731 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:03:30.732 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+12:03:30.738 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:03:30.739 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+12:03:30.739 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:03:30.739 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:03:31.789 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+12:03:31.975 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+12:49:51.733 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 3812 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+12:49:51.754 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+12:49:55.253 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+12:49:55.253 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:49:55.254 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+12:49:55.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:49:55.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+12:49:55.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:49:55.260 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:49:56.312 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+12:49:56.492 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+12:50:38.400 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 3052 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+12:50:38.414 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+12:52:06.776 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 11132 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+12:52:06.790 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+12:54:18.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+12:54:18.272 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+12:54:18.304 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+12:54:18.437 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+12:54:18.497 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+12:54:18.540 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+12:54:18.585 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12:54:19.740 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+12:54:28.405 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+13:00:34.001 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 3084 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:00:34.015 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:01:29.841 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 15484 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:01:29.852 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:02:08.507 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 9860 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:02:08.526 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:02:10.271 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+13:02:10.272 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:02:10.272 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:02:10.274 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:02:10.274 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+13:02:10.274 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:02:10.275 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:02:11.330 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+13:02:11.449 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+13:02:12.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+13:02:12.547 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 5.218 seconds (JVM running for 7.414)
+13:02:46.268 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 16872 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:02:46.288 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:02:47.475 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+13:02:47.476 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:02:47.476 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:02:47.478 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:02:47.478 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+13:02:47.479 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:02:47.479 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:02:48.523 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+13:02:48.622 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+13:02:49.346 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+13:02:49.387 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 3.729 seconds (JVM running for 5.353)
+13:03:48.529 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 17472 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:03:48.542 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:03:51.834 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+13:03:51.835 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:03:51.836 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:03:51.841 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:03:51.842 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+13:03:51.842 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:03:51.842 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:03:52.898 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+13:03:53.068 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+13:03:54.599 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+13:03:54.710 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 6.903 seconds (JVM running for 8.982)
+13:04:21.365 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 17912 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:04:21.385 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:05:01.795 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+13:05:01.795 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:05:01.796 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:05:01.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:05:01.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+13:05:01.799 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:05:01.800 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:05:02.860 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+13:05:03.009 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+13:05:04.000 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+13:05:04.066 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 43.546 seconds (JVM running for 45.764)
+13:54:48.084 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 6896 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+13:54:48.142 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+13:54:51.657 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+13:54:51.657 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+13:54:51.658 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+13:54:51.664 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+13:54:51.664 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+13:54:51.664 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13:54:51.665 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13:54:52.712 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+13:54:53.101 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+14:08:34.438 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 8504 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+14:08:34.453 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+14:08:37.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+14:08:37.403 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:08:37.404 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+14:08:37.407 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+14:08:37.408 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+14:08:37.409 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+14:08:37.409 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:08:38.520 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+14:08:38.816 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+14:08:40.576 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+14:11:16.824 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 163.744 seconds (JVM running for 167.657)
+19:07:53.782 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 2568 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+19:07:53.807 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+19:07:56.431 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+19:07:56.431 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:07:56.432 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:07:56.434 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+19:07:56.435 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+19:07:56.435 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19:07:56.435 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:07:57.508 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+19:07:57.651 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+19:07:59.271 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+19:07:59.350 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 6.562 seconds (JVM running for 10.54)
+19:08:21.071 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 1612 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+19:08:21.086 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+19:08:22.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+19:08:22.841 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+19:08:22.842 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+19:08:22.845 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+19:08:22.845 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+19:08:22.846 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19:08:22.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19:08:23.941 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+19:08:24.069 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+19:08:25.027 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+19:12:06.307 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 226.228 seconds (JVM running for 229.169)
+23:03:54.137 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 19740 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:03:54.189 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:03:58.126 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:03:58.127 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:03:58.127 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:03:58.136 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:03:58.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:03:58.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:03:58.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:03:59.222 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:03:59.431 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:06:53.007 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:06:53.054 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 179.937 seconds (JVM running for 183.384)
+23:07:31.045 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 14676 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:07:31.059 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:07:32.663 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:07:32.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:07:32.664 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:07:32.666 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:07:32.666 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:07:32.666 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:07:32.667 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:07:33.740 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:07:33.864 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:08:39.417 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:08:39.466 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 69.181 seconds (JVM running for 71.355)
+23:08:46.630 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 16824 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:08:46.647 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:08:48.104 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:08:48.105 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:08:48.105 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:08:48.108 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:08:48.108 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:08:48.108 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:08:48.109 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:08:49.163 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:08:49.286 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:09:21.897 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 22012 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:09:21.911 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:09:23.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:09:23.462 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:09:23.462 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:09:23.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:09:23.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:09:23.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:09:23.465 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:09:24.527 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:09:24.660 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:09:25.745 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:09:25.793 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.688 seconds (JVM running for 6.918)
+23:09:44.169 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 17608 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:09:44.183 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:09:45.866 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:09:45.867 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:09:45.867 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:09:45.869 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:09:45.869 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:09:45.870 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:09:45.870 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:09:46.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:09:47.053 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:09:48.018 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:09:48.082 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.698 seconds (JVM running for 6.94)
+23:10:12.279 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 488 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:10:12.296 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:10:13.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:10:13.876 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:10:13.876 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:10:13.878 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:10:13.879 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:10:13.879 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:10:13.879 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:10:14.941 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:10:15.069 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:20:17.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:20:17.246 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 605.744 seconds (JVM running for 607.913)
+23:20:45.556 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 21292 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:20:45.575 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:20:47.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:20:47.435 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:20:47.435 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:20:47.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:20:47.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:20:47.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:20:47.439 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:20:48.524 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:20:48.661 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:23:44.246 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 21952 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:23:44.262 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:23:45.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:23:45.845 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:23:45.846 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:23:45.849 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:23:45.849 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:23:45.850 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:23:45.850 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:23:46.937 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:23:47.074 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:25:56.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:25:56.230 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 132.778 seconds (JVM running for 134.745)
+23:32:03.914 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 19364 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:32:03.930 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:32:05.555 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:32:05.556 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:32:05.556 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:32:05.558 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:32:05.558 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:32:05.559 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:32:05.559 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:32:06.610 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:32:06.745 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:32:07.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:32:07.726 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.677 seconds (JVM running for 7.012)
+23:32:29.611 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 21140 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:32:29.630 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:32:31.369 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:32:31.370 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:32:31.370 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:32:31.373 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:32:31.374 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:32:31.374 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:32:31.374 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:32:32.430 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:32:32.551 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:33:29.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:33:29.831 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 61.161 seconds (JVM running for 63.383)
+23:33:44.522 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 11092 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:33:44.542 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:33:46.360 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:33:46.361 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:33:46.361 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:33:46.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:33:46.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:33:46.363 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:33:46.364 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:33:47.410 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:33:47.544 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:33:58.366 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:33:58.422 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 14.659 seconds (JVM running for 16.863)
+23:46:15.780 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 14676 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:46:15.800 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+23:47:36.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+23:47:36.602 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:47:36.602 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+23:47:36.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+23:47:36.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+23:47:36.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+23:47:36.606 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:47:37.667 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+23:47:37.806 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+23:47:38.781 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+23:47:38.829 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 84.062 seconds (JVM running for 86.59)
+23:56:21.608 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 16056 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+23:56:21.625 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+00:33:15.728 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 19756 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+00:33:16.081 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+00:34:40.409 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+00:34:40.409 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:34:40.410 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+00:34:40.412 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+00:34:40.412 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+00:34:40.413 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+00:34:40.413 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+00:34:41.470 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+00:34:41.592 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+00:34:42.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+00:34:42.543 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 2043.118 seconds (JVM running for 2045.286)
+02:25:21.186 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 22224 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+02:25:21.237 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+02:25:23.238 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+02:25:23.239 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:25:23.239 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+02:25:23.241 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+02:25:23.241 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+02:25:23.241 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:25:23.242 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:25:24.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+02:25:24.447 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+02:25:25.393 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+02:25:25.441 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 5.108 seconds (JVM running for 7.113)
+02:26:04.736 [main] INFO  xmxrProject.CodeGenerateApplication - Starting CodeGenerateApplication on XingMiXiEr with PID 23316 (D:\_ProjectSpace\XMXR-Service\code-generate-server\target\classes started by Administrator in D:\_ProjectSpace\XMXR-Service\code-generate-server)
+02:26:04.768 [main] INFO  xmxrProject.CodeGenerateApplication - No active profile set, falling back to default profiles: default
+02:26:06.322 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-3333"]
+02:26:06.323 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+02:26:06.323 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.36]
+02:26:06.325 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+02:26:06.325 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+02:26:06.326 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+02:26:06.326 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+02:26:07.390 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+02:26:07.520 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/xmxr] - Initializing Spring embedded WebApplicationContext
+02:26:08.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-3333"]
+02:26:08.358 [main] INFO  xmxrProject.CodeGenerateApplication - Started CodeGenerateApplication in 4.66 seconds (JVM running for 6.439)

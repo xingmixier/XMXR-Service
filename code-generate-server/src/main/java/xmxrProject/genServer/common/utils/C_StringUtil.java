@@ -17,7 +17,7 @@ public class C_StringUtil {
      * @return
      */
 
-    public  String trimText(String string) {
+    public static String trimText(String string) {
         int len = string.length();
         int st = 0;
         char[] val = string.toCharArray();
@@ -30,7 +30,7 @@ public class C_StringUtil {
         return string.substring(st, len);
     }
 
-    public  String trimBegin(String string) {
+    public static  String trimBegin(String string) {
         int len = string.length();
         int st = 0;
         char[] val = string.toCharArray();
@@ -41,7 +41,7 @@ public class C_StringUtil {
         return string.substring(st, len);
     }
 
-    public  String trimEnd(String string) {
+    public static  String trimEnd(String string) {
         int len = string.length();
         int st = 0;
         char[] val = string.toCharArray();
@@ -53,7 +53,7 @@ public class C_StringUtil {
     }
 
 
-    public  boolean isBlank(String s) {
+    public static  boolean isBlank(String s) {
         char cs[] = s.toCharArray();
         for (char c : cs) {
             if (c > 32 && c != 12288) {
@@ -63,7 +63,7 @@ public class C_StringUtil {
         return true;
     }
 
-    public  void canNotBlank(String ...strings){
+    public static  void canNotBlank(String ...strings){
         C_ObjectUtil.canNotNull(strings);
         for(String string : strings){
             if(isBlank(string)){
@@ -72,12 +72,12 @@ public class C_StringUtil {
         }
     }
 
-    public  String removeRN(String s) {
+    public  static String removeRN(String s) {
         s = s.replace('\r', ' ').replace('\n', ' ');
         return s;
     }
 
-    public  String removeT(String s) {
+    public static  String removeT(String s) {
         s = s.replace('\t', ' ');
         return s;
     }
@@ -88,7 +88,7 @@ public class C_StringUtil {
      * @param args
      * @throws Exception
      */
-    public  void main(String[] args) throws Exception {
+    public  static void main(String[] args) throws Exception {
         InputStream is = new FileInputStream(new File("D:\\_TEST_FILES\\1.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         StringBuilder sb = new StringBuilder();

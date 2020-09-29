@@ -1,11 +1,11 @@
 package xmxrProject.genServer.mods.codeGenerate.service;
 
+import org.springframework.stereotype.Service;
 import xmxrProject.genServer.common.utils.C_CodeBuilder;
+import xmxrProject.genServer.common.utils.C_IOUtil;
 import xmxrProject.genServer.common.utils.C_ListUtil;
 import xmxrProject.genServer.common.utils.C_ZipUtil;
-import xmxrProject.genServer.common.utils.C_StreamUtil;
 import xmxrProject.genServer.mods.codeGenerate.entity.ClassField;
-import org.springframework.stereotype.Service;
 
 import java.io.*;
 import java.util.HashMap;
@@ -30,7 +30,7 @@ public class CodeGenerateService {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } finally {
-            C_StreamUtil.closeStream(fos);
+            C_IOUtil.closeStream(fos);
             if (zipFile == null) {
                 throw new RuntimeException("zipFile = null");
             }

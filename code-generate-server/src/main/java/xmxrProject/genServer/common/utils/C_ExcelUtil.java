@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.text.SimpleDateFormat;
 
-public class C_ExcelUtil {
+public class C_ExcelUtil implements Closeable{
 
 
     private Workbook workbook;
@@ -20,6 +20,7 @@ public class C_ExcelUtil {
     private Integer[] noBodyRowIndex = null;
     private InputStream is;
     private String fileName;
+
 
 
 
@@ -289,7 +290,12 @@ public class C_ExcelUtil {
         } catch (IOException e) {
             e.printStackTrace();
         }finally {
-            C_StreamUtil.closeStream(os,workbook);
+            C_IOUtil.closeStream(os,workbook);
         }
+    }
+
+    @Override
+    public void close() throws IOException {
+        workbook.close();
     }
 }

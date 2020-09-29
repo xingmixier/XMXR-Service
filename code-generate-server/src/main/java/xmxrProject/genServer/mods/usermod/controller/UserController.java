@@ -25,8 +25,6 @@ public class UserController extends BaseController<User> {
     @Autowired
     private UserService userService;
 
-    @Autowired
-    private TestUser textUser ;
 
     /**
      * 添加一条user数据

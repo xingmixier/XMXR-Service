@@ -35,7 +35,7 @@ public class C_ZipUtil {
         } catch (Exception e) {
             throw new RuntimeException("zip error from ZipUtils", e);
         } finally {
-            C_StreamUtil.closeStream(zos);
+            C_IOUtil.closeStream(zos);
         }
 
     }
@@ -65,7 +65,7 @@ public class C_ZipUtil {
         } catch (Exception e) {
             throw new RuntimeException("zip error from ZipUtils", e);
         } finally {
-            C_StreamUtil.closeStream(zos);
+            C_IOUtil.closeStream(zos);
         }
     }
 

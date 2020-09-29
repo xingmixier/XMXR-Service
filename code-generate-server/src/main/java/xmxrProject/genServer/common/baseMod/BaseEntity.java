@@ -23,6 +23,10 @@ public class BaseEntity<E> extends BaseClass {
 
     @Override
     public String toString() {
-        return this.println();
+            try {
+                return this.println();
+            } catch (IllegalAccessException e) {
+                return this.getClass().getName() + "@" + Integer.toHexString(this.hashCode());
+            }
     }
 }

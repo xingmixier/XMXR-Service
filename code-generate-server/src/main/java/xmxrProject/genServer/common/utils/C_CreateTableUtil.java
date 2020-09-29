@@ -1,18 +1,18 @@
 package xmxrProject.genServer.common.utils;
 
 
-import xmxrProject.genServer.common.enums.TestEnum;
-
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class C_CreateTableUtil {
+public class C_CreateTableUtil{
 
 
     public final int TXT = 0;
     public final int EXCEL = 1;
-
     private String FILE_PATH = "D:\\_TEST_FILES\\biao.txt";
     private String ENGINE = "InnoDB";
     private String CHARACTER = "utf8mb4";
@@ -22,11 +22,16 @@ public class C_CreateTableUtil {
     private int FIELD_LENGTH = 18;
     private int FILE_TYPE = 0;
     private int EXCEL_HEAD_ROW = 0;
-
     private int COUNT = 0;
+    private static String url = "http://fy.iciba.com/ajax.php";
+    private static HashMap<String,String > [] result;
+    private int CN_Field_Count;
+    private int EN_Field_Count;
+    private String [] CNFields ;
+    private String [] ENFields ;
 
 
-    public String getSql(String filePath, String tableName, String tableComment, int fileType, int headRow) {
+    public String getSql(String filePath, String tableName, String tableComment, int fileType, int headRow) throws IOException {
         FILE_PATH = filePath;
         TABLE_NAME = tableName;
         TABLE_COMMENT = tableComment;
@@ -36,84 +41,51 @@ public class C_CreateTableUtil {
 
     }
 
+    private String getSql() throws IOException {
+        StringBuilder cnFields = new StringBuilder();
+        switch (FILE_TYPE){
+            case TXT:       getTxtFields(cnFields);               break;
+            case EXCEL:     getExcelFields(cnFields);             break;
+        }
+        getENFields(cnFields);
+        return createTableSql();
+    }
 
-    public String[] getFields4CN4Txt(String filePath) {
-        BufferedReader br = null;
-        String[] strings = null;
-        try {
-            br = new BufferedReader(new InputStreamReader(new FileInputStream(filePath)));
-            String strLine = br.readLine();
-            strings = strLine.split("\t");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                br.close();
-            } catch (IOException e) {
-                e.printStackTrace();
+
+    private void removeDuplicate(){
+        String str1;
+        String str2;
+        for(int i = 0 ; i < ENFields.length ; i++){
+            str1 = ENFields[i];
+            for(int ii = 0 ; ii < ENFields.length ; ii ++){
+                str2 = ENFields[ii];
+                if(str1.equalsIgnoreCase(str2) && i != ii){
+                    ENFields[i] = str1+COUNT++;
+                }
             }
         }
-        return strings;
     }
 
-    private String[] getFields4CN4Excel(String filePath) {
-
-        return null;
-    }
-
-    public String[] getFields4CN(String filePath) {
-        switch (FILE_TYPE) {
-            case TXT:
-                return getFields4CN4Txt(filePath);
-            case EXCEL:
-                return getFields4CN4Excel(filePath);
-            default:
-                return null;
-        }
-    }
-
-
-    private String removeFuHao(String s) {
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
-                continue;
+    private String createTableSql() {
+        if(CN_Field_Count != EN_Field_Count){
+            for(int i = 0 ; i < (EN_Field_Count >CN_Field_Count?EN_Field_Count :CN_Field_Count) ; i++){
+                if(i < CN_Field_Count){
+                    System.out.print(CNFields[i]);
+                }
+                System.out.print("\t\t\t ---> \t\t");
+                if(i < EN_Field_Count){
+                    System.out.print(ENFields[i]);
+                }
+                System.out.println();
             }
-            s = s.replace(c, '_');
+            return "参数数量不对等 CN_Field_Count："+CN_Field_Count+"    EN_Field_Count："+EN_Field_Count;
         }
-        return s;
-    }
-
-    private String[] getResultText(String[] text) {
-        String url = "http://fy.iciba.com/ajax.php";
-        String value = null;
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < text.length; i++) {
-            sb.append(text[i]);
-            if (i < (text.length - 1)) {
-                sb.append("!!!!!!");
-            }
-        }
-        System.out.println(sb.toString());
-        Map<String, String> map = new HashMap<>();
-        map.put("a", "fy");
-        map.put("f", "zh");
-        map.put("t", "en-US");
-        map.put("w", sb.toString());
-        Map<String, Object> result = C_HttpUtils.doGet(url, map);
-        value = (String) ((Map<String, Object>) result.get("content")).get("out");
-        System.out.println(value);
-        return value.split("!!!");
-    }
-
-    private String createTableSql(String[] CNtexts, String[] ENtexts) {
         StringBuilder sb = new StringBuilder();
         sb.append("CREATE TABLE `").append(TABLE_NAME).append("`  (");
-        for (int i = 0; i < ENtexts.length; i++) {
+        removeDuplicate();
+        for (int i = 0; i < ENFields.length; i++) {
             sb.append("`")
-                    .append(ENtexts[i])
+                    .append(ENFields[i])
                     .append("`")
                     .append(" VARCHAR(50) ")
                     .append(" CHARACTER SET ")
@@ -123,9 +95,9 @@ public class C_CreateTableUtil {
                     .append(" NULL DEFAULT NULL ")
                     .append(" COMMENT ")
                     .append("'")
-                    .append(CNtexts[i])
+                    .append(CNFields[i])
                     .append("'");
-            if (i < (ENtexts.length - 1)) {
+            if (i < (ENFields.length - 1)) {
                 sb.append(",");
             }
         }
@@ -143,67 +115,91 @@ public class C_CreateTableUtil {
         return sb.toString();
     }
 
-
-    private String[] formatENTexts(String[] enTexts) {
-
-        for (int i = 0; i < enTexts.length; i++) {
-//            System.out.println("start-->   "+enTexts[i]);
-            enTexts[i] = enTexts[i].trim();
-            enTexts[i] = removeFuHao(enTexts[i]);
-            enTexts[i] = enTexts[i].replace(' ', '_');
-            while (enTexts[i].indexOf("__") != -1) {
-                enTexts[i] = enTexts[i].replace("__", "_");
-            }
-            while (enTexts[i].charAt(0) == '_') {
-                enTexts[i] = enTexts[i].substring(1, enTexts[i].length());
-            }
-            while (enTexts[i].charAt(enTexts[i].length() - 1) == '_') {
-                enTexts[i] = enTexts[i].substring(0, enTexts[i].length() - 1);
-            }
-            enTexts[i] = enTexts[i].substring(0, 1).toLowerCase() + enTexts[i].substring(1);
-            if (enTexts[i].length() > 48) {
-                enTexts[i] = enTexts[i].substring(0, FIELD_LENGTH);
-            }
-            for (int ii = 0; ii < enTexts.length; ii++) {
-                if (ii == i) {
-                    continue;
-                }
-                if (enTexts[i].equals(enTexts[ii])) {
-                    enTexts[i] = enTexts[i] + "_OTHER_" + (COUNT++);
-                }
-            }
-//            System.out.println("end-->   "+enTexts[i]);
+    private void getENFields(StringBuilder fields) {
+        StringBuilder sb = new StringBuilder();
+        String value;
+        Map map = new HashMap();
+        map.put("a", "fy");
+        map.put("f", "zh");
+        map.put("t", "en-US");
+        map.put("w", fields.toString());
+        Map<String, Object> res = C_HttpUtils.doGet(url, map);
+        value = (String) ((Map<String, Object>) res.get("content")).get("out");
+        String [] enFields = value.split("\\n");
+        EN_Field_Count = enFields.length;
+        ENFields = new String[EN_Field_Count];
+        String enField;
+        for(int i = 0 ; i < EN_Field_Count ; i++){
+            enField = enFields[i];
+            enField = sqlFormat4EN(enField);
+            ENFields[i] = enField;
+            result[i].put("en",enField);
         }
-        return enTexts;
+    }
+    private String removeFuHao(String s) {
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) {
+                continue;
+            }
+            s = s.replace(c, '_');
+        }
+        return s;
+    }
+    private String sqlFormat4EN(String enField) {
+        enField = enField.trim();
+        enField = removeFuHao(enField);
+        enField = enField.replace(' ', '_');
+        while (enField.indexOf("__")!=-1){
+            enField = enField.replace("__","_");
+        }
+        if(enField.length()>2){
+            enField = enField.substring(0, 1).toLowerCase() + enField.substring(1);
+        }
+        if (enField.length() > FIELD_LENGTH) {
+            enField = enField.substring(0, FIELD_LENGTH);
+        }
+        while (enField.startsWith("_")){
+            enField = enField.substring("_".length());
+        }
+        while (enField.endsWith("_")){
+            enField = enField.substring(0,enField.length()- "_".length());
+        }
+        return enField;
     }
 
-    private String[] formatCNTexts(String[] cnTexts) {
-        for (int i = 0; i < cnTexts.length; i++) {
-            cnTexts[i] = cnTexts[i].trim();
-        }
-        return cnTexts;
+    private void getExcelFields(StringBuilder fields) throws FileNotFoundException {
+
     }
 
-
-    public String getSql() {
-        COUNT = 0;
-        String[] CNTexts = getFields4CN(FILE_PATH);
-        System.out.println(CNTexts.length);
-        CNTexts = formatCNTexts(CNTexts);
-        String[] ENTexts = getResultText(CNTexts);
-        System.out.println(ENTexts.length);
-        ENTexts = formatENTexts(ENTexts);
-        for (int i = 0; i < CNTexts.length; i++) {
-            System.out.println(ENTexts[i] + " --> " + CNTexts[i]);
+    private void getTxtFields(StringBuilder fields) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(FILE_PATH));
+        String strLine = br.readLine();
+        String [] cnFields = strLine.split("\t");
+        CN_Field_Count = cnFields.length;
+        result = new HashMap[CN_Field_Count];
+        String cnField;
+        CNFields = new String[CN_Field_Count];
+        for(int i = 0 ; i < CN_Field_Count ; i++){
+            cnField = cnFields[i];
+            cnField = sqlFormat4CN(cnField);
+            CNFields[i] = cnField;
+            HashMap<String ,String > hashMap = new HashMap();
+            hashMap.put("cn",cnField);
+            result[i] = hashMap;
+            fields.append(cnField).append("\n");
         }
-        return createTableSql(CNTexts, ENTexts);
     }
 
+    private String sqlFormat4CN(String cnField) {
+        cnField = cnField.trim();
+        return cnField;
+    }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         C_CreateTableUtil c = new C_CreateTableUtil();
-        String begin = "dfhx_";
-        String sql = c.getSql("D:\\_TEST_FILES\\biao.txt", begin+"hxydmx", "核销用电明细", c.TXT, 1);
+        String begin = "ltzz_";
+        String sql = c.getSql("D:\\_TEST_FILES\\biao.txt", begin+"5gdzgz", "联通站址5g断站故障", c.TXT, 1);
         System.out.println(sql);
     }
 }

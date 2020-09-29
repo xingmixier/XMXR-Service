@@ -1,5 +1,8 @@
 package xmxrProject.genServer.common.utils;
 
+import xmxrProject.genServer.$XMXR;
+import xmxrProject.genServer.mods.usermod.entity.User;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -14,7 +17,14 @@ import java.util.List;
  * @Date: 2020/7/24 15:10
  * @Description:
  */
-public class C_ClassUtil {
+public class C_ClassUtil implements $XMXR {
+
+
+
+
+
+
+
 
     /**
      * 复制 对象同名属性
@@ -98,6 +108,13 @@ public class C_ClassUtil {
         Field field = getField(obj,fieldName);
         field.setAccessible(true);
         field.set(obj,value);
+    }
+
+
+    public static List<Field> getFields(Object obj){
+        List<Field> fields = new ArrayList<>();
+        fields.addAll(Arrays.asList(obj.getClass().getDeclaredFields())) ;
+        return fields;
     }
 
     /**

@@ -1,9 +1,22 @@
 package xmxrProject.genServer.common.task;
 
+import org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
+import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
+import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.SpringProperties;
+import org.springframework.core.env.ConfigurableEnvironment;
+import org.springframework.core.env.MutablePropertySources;
+import org.springframework.core.io.Resource;
+import org.springframework.web.context.support.StandardServletEnvironment;
+import xmxrProject.genServer.common.Corn;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.lang.reflect.Field;
 import java.util.Scanner;
 
@@ -26,6 +39,8 @@ public class GlobalDirectivesTask implements Runnable {
      * usermod.entity.TestUser
      */
 
+
+
     @Override
     public void run() {
         Scanner sc = new Scanner(System.in);
@@ -45,7 +60,7 @@ public class GlobalDirectivesTask implements Runnable {
         }
     }
 
-    private void show() throws Exception {
+    private void  show() throws Exception {
         switch (ARGS[1]) {
             case "-a":
                 show_a();
@@ -58,11 +73,27 @@ public class GlobalDirectivesTask implements Runnable {
                 break;
             case "-p":
                 show_p();
+            case "test":
+                test();
         }
     }
 
+    private void test() {
+        ConfigurableListableBeanFactory beanFactory = BEANS.getBeanFactory();
+        Object value;
+        DefaultListableBeanFactory defaultListableBeanFactory =  BEANS.getBean(DefaultListableBeanFactory.class);
+        value = beanFactory.createBean(Corn.class);
+        beanFactory.autowireBean(value);
+        beanFactory.autowireBeanProperties(value, AutowireCapableBeanFactory.AUTOWIRE_BY_TYPE,true);
+    }
+
     private void show_p() throws Exception {
-        System.out.println(SpringProperties.getProperty(ARGS[2]));
+//        ConfigurableEnvironment configList = BEANS.getEnvironment();
+        StandardServletEnvironment configList = (StandardServletEnvironment) BEANS.getEnvironment();
+        MutablePropertySources propertySources =  configList.getPropertySources();
+        propertySources.remove(ARGS[2]);
+//        propertySources.addFirst();
+        System.out.println(configList.getProperty(ARGS[2]));
     }
 
     private void show_f() throws Exception {
@@ -93,5 +124,7 @@ public class GlobalDirectivesTask implements Runnable {
             ARGS[i++] = arg;
         }
     }
+
+
 
 }
